@@ -36,6 +36,8 @@ namespace DCL
             base.Awake();
             CommandLineParserUtils.ParseArguments();
             DataStore.i.wsCommunication.communicationEstablished.OnChange += OnCommunicationEstablished;
+            
+            DataStore.i.gltf.useMultithreading.Set(true);
         }
 
         private void InitializeSettings()
