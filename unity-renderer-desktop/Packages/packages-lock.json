@@ -7,6 +7,19 @@
       "dependencies": {},
       "hash": "d4fc38c92fb139b4184912f20556ab27a3b519fa"
     },
+    "com.coffee.ui-particle": {
+      "version": "file:.com.coffee.ui-particle@3.3.9",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.cysharp.unitask": {
+      "version": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "50a67d8f419b6cea0398eff6c19cf0bbe11ed609"
+    },
     "com.decentraland.unity-renderer": {
       "version": "git+https://github.com/decentraland/unity-renderer.git?path=unity-renderer/Assets#feat/desktop-multithreading",
       "depth": 0,
@@ -58,7 +71,7 @@
         "com.unity.modules.vr": "1.0.0",
         "com.unity.modules.xr": "1.0.0"
       },
-      "hash": "faa26e72e7b4581f37fb6ee0bc0d542f19224693"
+      "hash": "305506e25e9d59ddbb3708e02a068d836f68f693"
     },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
