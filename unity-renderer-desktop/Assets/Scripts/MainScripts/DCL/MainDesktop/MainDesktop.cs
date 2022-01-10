@@ -109,5 +109,7 @@ namespace DCL
             base.InitializeSceneDependencies();
             preloadingController = new PreloadingController();
         }
+
+        protected override void CreateEnvironment() => MainSceneFactory.CreateEnvironment("EnvironmentDesktop");
     }
 }
